@@ -1,0 +1,9 @@
+network:
+  ethernets:
+    enp0s3:
+      dhcp4: true
+      dhcp6: true
+    enp0s8:
+      addresses:
+        - 192.168.171.11/24
+  version: 2

@@ -1,0 +1,12 @@
+network:
+  ethernets:
+    enp0s3:
+      dhcp4: true
+      dhcp6: true
+      match:
+        macaddress: 08:00:27:61:e8:55
+      set-name: enp0s3
+    enp0s8:
+      addresses:
+        - 192.168.171.10/24
+  version: 2
