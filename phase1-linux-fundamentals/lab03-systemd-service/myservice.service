@@ -1,0 +1,11 @@
+[Unit]
+Description=My Fake Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/myservice/run.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
