@@ -1,0 +1,6 @@
+[Unit]
+Description=Write a heartbeat line
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'echo "$(date) - heartbeat" >> /var/log/heartbeat.log'
